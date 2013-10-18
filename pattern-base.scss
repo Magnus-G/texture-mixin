@@ -1,36 +1,98 @@
 @import "pattern-mixin";
 
+$background-color: #3F3F3F;
+$space: 16px;
+$radius: 3px;
+
+$font-color: lighten(gray, 5);
+$contrast-color: orange;
 
 body {
-  background-color: #3F3F3F;
+  background-color: $background-color;
   margin: 0;
   font-family: 'Roboto Slab', serif;
-  color: gray;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; // Fix the character spacing for headings
+  color: $font-color;
 }
 
 .container {
-  width: 40%;
+  width: 700px;
   margin: auto;
-  
 }
 
+code { 
+  padding: 0;
+  pre {
+    background-color: darken($background-color, 10);
+    border-radius: $radius;
+    margin: 0;
+    margin-bottom: $space *2;
+    padding: $space;
+
+  }
+}
+
+////////////////////////////////////////////////
+
+h1 {
+  color: lighten($font-color, 15);
+  margin-top: $space *2;
+}
+
+h2 {
+  border-bottom: 1px dashed $font-color;
+  padding-bottom: $space/2;
+  margin-top: $space *2;
+}
+
+h3 {
+  background-color: $font-color;
+  color: $background-color;
+  padding: 4px 6px;
+  display: inline-block;
+  min-width: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: $contrast-color;
+  }
+}
+
+b {
+  color: lighten($font-color, 10);
+}
+
+ul {
+  margin-bottom: $space *2;
+}
+
+////////////////////////////////////////////////
+
 div {
-  border-radius: 3px;
+  border-radius: $radius;
   position: relative;
-
-
 }  
-.pattern-heading {
 
-  h3 {
+.pattern-heading {
+  h4 {
+    float: left;
     margin: 0;
     padding-bottom: 25px;
     font-weight: 700;
+    width: 100px;
   }
 
   input.color {
     border: none;
-    // float: right;
+    float: right;
     padding: 10px;
     right: 10px;
     bottom: 10px;
@@ -42,6 +104,7 @@ div {
   
 
 .examples {
+  clear: both;
   height: 170px;
   width: 100%;
   margin-bottom: 40px;
