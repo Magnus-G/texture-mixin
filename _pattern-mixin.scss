@@ -86,22 +86,14 @@
   "shinedotted.png"
   "stacked_circles.png"
   ;
-  // @if ($inverted == 1) {
-  //   background: url("patterns/inverted/#{nth($pattern-list, $pattern-number)}");
-  //   // background-color: $bg-color;
-  // }
 
-  // @else {
-  //   background: url("patterns/#{nth($pattern-list, $pattern-number)}");
-  //   // background-color: $bg-color;
-  // }
   @if ($inverted == 1) {
     background: url("https://raw.github.com/Magnus-G/pattern-mixin/master/patterns/inverted/#{nth($pattern-list, $pattern-number)}");
-    // background-color: $bg-color;
+    background-color: $bg-color;
   }
 
   @else {
     background: url("https://raw.github.com/Magnus-G/pattern-mixin/master/patterns/#{nth($pattern-list, $pattern-number)}");
-    // background-color: $bg-color;
+    background-color: $bg-color;
   }
 }

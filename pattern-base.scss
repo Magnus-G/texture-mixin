@@ -132,10 +132,10 @@ div {
   .pattern-#{$i} {
     // background-color: none;
     .example-normal {
-      @include pattern(#929480, $i, 0);
+      @include pattern(transparentize(white, 1), $i, 0);
     }
     .example-inverted {
-      @include pattern(#929480, $i, 1);
+      @include pattern(transparentize(white, 1), $i, 1);
     }
   }
 }
