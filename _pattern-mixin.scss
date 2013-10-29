@@ -1,4 +1,4 @@
-@mixin pattern($bg-color, $pattern-number, $inverted) { $pattern-list: "paper.png"             // Fabric and paper
+@mixin texture($bg-color, $texture-number, $inverted) { $texture-list: "paper.png"             // Fabric and paper
   "rice_paper.png"
   "noise_lines.png"
   "fabric_plaid.png"
@@ -88,12 +88,12 @@
   ;
 
   @if ($inverted == 1) {
-    background: url("https://raw.github.com/Magnus-G/pattern-mixin/gh-pages/patterns/inverted/#{nth($pattern-list, $pattern-number)}");
+    background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/#{nth($texture-list, $texture-number)}");
     background-color: $bg-color;
   }
 
   @else {
-    background: url("https://raw.github.com/Magnus-G/pattern-mixin/gh-pages/patterns/#{nth($pattern-list, $pattern-number)}");
+    background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/#{nth($texture-list, $texture-number)}");
     background-color: $bg-color;
   }
 }
