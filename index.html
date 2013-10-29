@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <title>Document</title>
-  <link rel="stylesheet" href="pattern-base.css" media="screen" />
+  <link rel="stylesheet" href="texture-base.css" media="screen" />
   <script type="text/javascript" src="jscolor.js"></script>
   <link rel="shortcut icon" href="favicon.ico" />
 </head>
@@ -25,21 +25,21 @@
   <li><b>Inverted or not.</b> Setting this to 0 will make the mixin use the normal version of the texture. Setting it to 1 will make it use an inverted version.</li>
 </ul>
 <code>
-  <pre>@include pattern(green, 34, 0); 
-// color, pattern-number, 0=inverted or 1=normal</pre>
+  <pre>@include texture(green, 34, 0); 
+// color, texture-number, 0=inverted or 1=normal</pre>
 </code>
 
 <h3>Step 2</h3>
-<p>Include the <a href="https://raw.github.com/Magnus-G/pattern-mixin/gh-pages/_pattern-mixin.scss">_pattern-mixin.scss</a> file in your project and you should be good to go.</p>
+<p>Include the <a href="https://raw.github.com/Magnus-G/texture-mixin/gh-pages/_texture-mixin.scss">_texture-mixin.scss</a> file in your project and you should be good to go.</p>
 
 <h2>Examples and Testing</h2>
-<p>The texture number on the left side in the examples below corresponds to the texture number in the <a href="https://raw.github.com/Magnus-G/pattern-mixin/gh-pages/_pattern-mixin.scss">_pattern-mixin.scss</a> file. The left-hand side shows the normal version and the right-hand side shows the inverted version. Use the color picker in the top right corner of each example to try out different backgrounds for the particular texture.</p>
+<p>The texture number on the left side in the examples below corresponds to the texture number in the <a href="https://raw.github.com/Magnus-G/texture-mixin/gh-pages/_texture-mixin.scss">_texture-mixin.scss</a> file. The left-hand side shows the normal version and the right-hand side shows the inverted version. Use the color picker in the top right corner of each example to try out different backgrounds for the particular texture.</p>
 <p>For a category overview, refer to the mixin file comments. The textures are ordered according to category.</p>
 <br>
 <br>
 
-<div class="pattern-1">
-  <div class="pattern-heading">
+<div class="texture-1">
+  <div class="texture-heading">
     <h4>Texture 1</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[0].style.backgroundColor = '#'+this.color">
   </div>
@@ -48,8 +48,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-2">
-  <div class="pattern-heading">
+<div class="texture-2">
+  <div class="texture-heading">
     <h4>Texture 2</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[1].style.backgroundColor = '#'+this.color">
   </div>
@@ -58,8 +58,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-3">
-  <div class="pattern-heading">
+<div class="texture-3">
+  <div class="texture-heading">
     <h4>Texture 3</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[2].style.backgroundColor = '#'+this.color">
   </div>
@@ -68,8 +68,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-4">
-  <div class="pattern-heading">
+<div class="texture-4">
+  <div class="texture-heading">
     <h4>Texture 4</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[3].style.backgroundColor = '#'+this.color">
   </div>
@@ -78,8 +78,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-5">
-  <div class="pattern-heading">
+<div class="texture-5">
+  <div class="texture-heading">
     <h4>Texture 5</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[4].style.backgroundColor = '#'+this.color">
   </div>
@@ -88,8 +88,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-6">
-  <div class="pattern-heading">
+<div class="texture-6">
+  <div class="texture-heading">
     <h4>Texture 6</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[5].style.backgroundColor = '#'+this.color">
   </div>
@@ -98,8 +98,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-7">
-  <div class="pattern-heading">
+<div class="texture-7">
+  <div class="texture-heading">
     <h4>Texture 7</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[6].style.backgroundColor = '#'+this.color">
   </div>
@@ -108,8 +108,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-8">
-  <div class="pattern-heading">
+<div class="texture-8">
+  <div class="texture-heading">
     <h4>Texture 8</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[7].style.backgroundColor = '#'+this.color">
   </div>
@@ -118,8 +118,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-9">
-  <div class="pattern-heading">
+<div class="texture-9">
+  <div class="texture-heading">
     <h4>Texture 9</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[8].style.backgroundColor = '#'+this.color">
   </div>
@@ -128,8 +128,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-10">
-  <div class="pattern-heading">
+<div class="texture-10">
+  <div class="texture-heading">
     <h4>Texture 10</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[9].style.backgroundColor = '#'+this.color">
   </div>
@@ -138,8 +138,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-11">
-  <div class="pattern-heading">
+<div class="texture-11">
+  <div class="texture-heading">
     <h4>Texture 11</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[10].style.backgroundColor = '#'+this.color">
   </div>
@@ -148,8 +148,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-12">
-  <div class="pattern-heading">
+<div class="texture-12">
+  <div class="texture-heading">
     <h4>Texture 12</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[11].style.backgroundColor = '#'+this.color">
   </div>
@@ -158,8 +158,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-13">
-  <div class="pattern-heading">
+<div class="texture-13">
+  <div class="texture-heading">
     <h4>Texture 13</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[12].style.backgroundColor = '#'+this.color">
   </div>
@@ -168,8 +168,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-14">
-  <div class="pattern-heading">
+<div class="texture-14">
+  <div class="texture-heading">
     <h4>Texture 14</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[13].style.backgroundColor = '#'+this.color">
   </div>
@@ -178,8 +178,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-15">
-  <div class="pattern-heading">
+<div class="texture-15">
+  <div class="texture-heading">
     <h4>Texture 15</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[14].style.backgroundColor = '#'+this.color">
   </div>
@@ -188,8 +188,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-16">
-  <div class="pattern-heading">
+<div class="texture-16">
+  <div class="texture-heading">
     <h4>Texture 16</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[15].style.backgroundColor = '#'+this.color">
   </div>
@@ -198,8 +198,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-17">
-  <div class="pattern-heading">
+<div class="texture-17">
+  <div class="texture-heading">
     <h4>Texture 17</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[16].style.backgroundColor = '#'+this.color">
   </div>
@@ -208,8 +208,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-18">
-  <div class="pattern-heading">
+<div class="texture-18">
+  <div class="texture-heading">
     <h4>Texture 18</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[17].style.backgroundColor = '#'+this.color">
   </div>
@@ -218,8 +218,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-19">
-  <div class="pattern-heading">
+<div class="texture-19">
+  <div class="texture-heading">
     <h4>Texture 19</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[18].style.backgroundColor = '#'+this.color">
   </div>
@@ -228,8 +228,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-20">
-  <div class="pattern-heading">
+<div class="texture-20">
+  <div class="texture-heading">
     <h4>Texture 20</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[19].style.backgroundColor = '#'+this.color">
   </div>
@@ -238,8 +238,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-21">
-  <div class="pattern-heading">
+<div class="texture-21">
+  <div class="texture-heading">
     <h4>Texture 21</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[20].style.backgroundColor = '#'+this.color">
   </div>
@@ -248,8 +248,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-22">
-  <div class="pattern-heading">
+<div class="texture-22">
+  <div class="texture-heading">
     <h4>Texture 22</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[21].style.backgroundColor = '#'+this.color">
   </div>
@@ -258,8 +258,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-23">
-  <div class="pattern-heading">
+<div class="texture-23">
+  <div class="texture-heading">
     <h4>Texture 23</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[22].style.backgroundColor = '#'+this.color">
   </div>
@@ -268,8 +268,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-24">
-  <div class="pattern-heading">
+<div class="texture-24">
+  <div class="texture-heading">
     <h4>Texture 24</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[23].style.backgroundColor = '#'+this.color">
   </div>
@@ -278,8 +278,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-25">
-  <div class="pattern-heading">
+<div class="texture-25">
+  <div class="texture-heading">
     <h4>Texture 25</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[24].style.backgroundColor = '#'+this.color">
   </div>
@@ -288,8 +288,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-26">
-  <div class="pattern-heading">
+<div class="texture-26">
+  <div class="texture-heading">
     <h4>Texture 26</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[25].style.backgroundColor = '#'+this.color">
   </div>
@@ -298,8 +298,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-27">
-  <div class="pattern-heading">
+<div class="texture-27">
+  <div class="texture-heading">
     <h4>Texture 27</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[26].style.backgroundColor = '#'+this.color">
   </div>
@@ -308,8 +308,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-28">
-  <div class="pattern-heading">
+<div class="texture-28">
+  <div class="texture-heading">
     <h4>Texture 28</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[27].style.backgroundColor = '#'+this.color">
   </div>
@@ -318,8 +318,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-29">
-  <div class="pattern-heading">
+<div class="texture-29">
+  <div class="texture-heading">
     <h4>Texture 29</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[28].style.backgroundColor = '#'+this.color">
   </div>
@@ -328,8 +328,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-30">
-  <div class="pattern-heading">
+<div class="texture-30">
+  <div class="texture-heading">
     <h4>Texture 30</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[29].style.backgroundColor = '#'+this.color">
   </div>
@@ -338,8 +338,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-31">
-  <div class="pattern-heading">
+<div class="texture-31">
+  <div class="texture-heading">
     <h4>Texture 31</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[30].style.backgroundColor = '#'+this.color">
   </div>
@@ -348,8 +348,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-32">
-  <div class="pattern-heading">
+<div class="texture-32">
+  <div class="texture-heading">
     <h4>Texture 32</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[31].style.backgroundColor = '#'+this.color">
   </div>
@@ -358,8 +358,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-33">
-  <div class="pattern-heading">
+<div class="texture-33">
+  <div class="texture-heading">
     <h4>Texture 33</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[32].style.backgroundColor = '#'+this.color">
   </div>
@@ -368,8 +368,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-34">
-  <div class="pattern-heading">
+<div class="texture-34">
+  <div class="texture-heading">
     <h4>Texture 34</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[33].style.backgroundColor = '#'+this.color">
   </div>
@@ -378,8 +378,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-35">
-  <div class="pattern-heading">
+<div class="texture-35">
+  <div class="texture-heading">
     <h4>Texture 35</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[34].style.backgroundColor = '#'+this.color">
   </div>
@@ -388,8 +388,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-36">
-  <div class="pattern-heading">
+<div class="texture-36">
+  <div class="texture-heading">
     <h4>Texture 36</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[35].style.backgroundColor = '#'+this.color">
   </div>
@@ -398,8 +398,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-37">
-  <div class="pattern-heading">
+<div class="texture-37">
+  <div class="texture-heading">
     <h4>Texture 37</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[36].style.backgroundColor = '#'+this.color">
   </div>
@@ -408,8 +408,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-38">
-  <div class="pattern-heading">
+<div class="texture-38">
+  <div class="texture-heading">
     <h4>Texture 38</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[37].style.backgroundColor = '#'+this.color">
   </div>
@@ -418,8 +418,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-39">
-  <div class="pattern-heading">
+<div class="texture-39">
+  <div class="texture-heading">
     <h4>Texture 39</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[38].style.backgroundColor = '#'+this.color">
   </div>
@@ -428,8 +428,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-40">
-  <div class="pattern-heading">
+<div class="texture-40">
+  <div class="texture-heading">
     <h4>Texture 40</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[39].style.backgroundColor = '#'+this.color">
   </div>
@@ -438,8 +438,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-41">
-  <div class="pattern-heading">
+<div class="texture-41">
+  <div class="texture-heading">
     <h4>Texture 41</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[40].style.backgroundColor = '#'+this.color">
   </div>
@@ -448,8 +448,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-42">
-  <div class="pattern-heading">
+<div class="texture-42">
+  <div class="texture-heading">
     <h4>Texture 42</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[41].style.backgroundColor = '#'+this.color">
   </div>
@@ -458,8 +458,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-43">
-  <div class="pattern-heading">
+<div class="texture-43">
+  <div class="texture-heading">
     <h4>Texture 43</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[42].style.backgroundColor = '#'+this.color">
   </div>
@@ -468,8 +468,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-44">
-  <div class="pattern-heading">
+<div class="texture-44">
+  <div class="texture-heading">
     <h4>Texture 44</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[43].style.backgroundColor = '#'+this.color">
   </div>
@@ -478,8 +478,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-45">
-  <div class="pattern-heading">
+<div class="texture-45">
+  <div class="texture-heading">
     <h4>Texture 45</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[44].style.backgroundColor = '#'+this.color">
   </div>
@@ -488,8 +488,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-46">
-  <div class="pattern-heading">
+<div class="texture-46">
+  <div class="texture-heading">
     <h4>Texture 46</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[45].style.backgroundColor = '#'+this.color">
   </div>
@@ -498,8 +498,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-47">
-  <div class="pattern-heading">
+<div class="texture-47">
+  <div class="texture-heading">
     <h4>Texture 47</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[46].style.backgroundColor = '#'+this.color">
   </div>
@@ -508,8 +508,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-48">
-  <div class="pattern-heading">
+<div class="texture-48">
+  <div class="texture-heading">
     <h4>Texture 48</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[47].style.backgroundColor = '#'+this.color">
   </div>
@@ -518,8 +518,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-49">
-  <div class="pattern-heading">
+<div class="texture-49">
+  <div class="texture-heading">
     <h4>Texture 49</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[48].style.backgroundColor = '#'+this.color">
   </div>
@@ -528,8 +528,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-50">
-  <div class="pattern-heading">
+<div class="texture-50">
+  <div class="texture-heading">
     <h4>Texture 50</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[49].style.backgroundColor = '#'+this.color">
   </div>
@@ -538,8 +538,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-51">
-  <div class="pattern-heading">
+<div class="texture-51">
+  <div class="texture-heading">
     <h4>Texture 51</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[50].style.backgroundColor = '#'+this.color">
   </div>
@@ -548,8 +548,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-52">
-  <div class="pattern-heading">
+<div class="texture-52">
+  <div class="texture-heading">
     <h4>Texture 52</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[51].style.backgroundColor = '#'+this.color">
   </div>
@@ -558,8 +558,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-53">
-  <div class="pattern-heading">
+<div class="texture-53">
+  <div class="texture-heading">
     <h4>Texture 53</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[52].style.backgroundColor = '#'+this.color">
   </div>
@@ -568,8 +568,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-54">
-  <div class="pattern-heading">
+<div class="texture-54">
+  <div class="texture-heading">
     <h4>Texture 54</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[53].style.backgroundColor = '#'+this.color">
   </div>
@@ -578,8 +578,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-55">
-  <div class="pattern-heading">
+<div class="texture-55">
+  <div class="texture-heading">
     <h4>Texture 55</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[54].style.backgroundColor = '#'+this.color">
   </div>
@@ -588,8 +588,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-56">
-  <div class="pattern-heading">
+<div class="texture-56">
+  <div class="texture-heading">
     <h4>Texture 56</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[55].style.backgroundColor = '#'+this.color">
   </div>
@@ -598,8 +598,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-57">
-  <div class="pattern-heading">
+<div class="texture-57">
+  <div class="texture-heading">
     <h4>Texture 57</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[56].style.backgroundColor = '#'+this.color">
   </div>
@@ -608,8 +608,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-58">
-  <div class="pattern-heading">
+<div class="texture-58">
+  <div class="texture-heading">
     <h4>Texture 58</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[57].style.backgroundColor = '#'+this.color">
   </div>
@@ -618,8 +618,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-59">
-  <div class="pattern-heading">
+<div class="texture-59">
+  <div class="texture-heading">
     <h4>Texture 59</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[58].style.backgroundColor = '#'+this.color">
   </div>
@@ -628,8 +628,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-60">
-  <div class="pattern-heading">
+<div class="texture-60">
+  <div class="texture-heading">
     <h4>Texture 60</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[59].style.backgroundColor = '#'+this.color">
   </div>
@@ -638,8 +638,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-61">
-  <div class="pattern-heading">
+<div class="texture-61">
+  <div class="texture-heading">
     <h4>Texture 61</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[60].style.backgroundColor = '#'+this.color">
   </div>
@@ -648,8 +648,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-62">
-  <div class="pattern-heading">
+<div class="texture-62">
+  <div class="texture-heading">
     <h4>Texture 62</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[61].style.backgroundColor = '#'+this.color">
   </div>
@@ -658,8 +658,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-63">
-  <div class="pattern-heading">
+<div class="texture-63">
+  <div class="texture-heading">
     <h4>Texture 63</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[62].style.backgroundColor = '#'+this.color">
   </div>
@@ -668,8 +668,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-64">
-  <div class="pattern-heading">
+<div class="texture-64">
+  <div class="texture-heading">
     <h4>Texture 64</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[63].style.backgroundColor = '#'+this.color">
   </div>
@@ -678,8 +678,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-65">
-  <div class="pattern-heading">
+<div class="texture-65">
+  <div class="texture-heading">
     <h4>Texture 65</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[64].style.backgroundColor = '#'+this.color">
   </div>
@@ -688,8 +688,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-66">
-  <div class="pattern-heading">
+<div class="texture-66">
+  <div class="texture-heading">
     <h4>Texture 66</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[65].style.backgroundColor = '#'+this.color">
   </div>
@@ -698,8 +698,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-67">
-  <div class="pattern-heading">
+<div class="texture-67">
+  <div class="texture-heading">
     <h4>Texture 67</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[66].style.backgroundColor = '#'+this.color">
   </div>
@@ -708,8 +708,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-68">
-  <div class="pattern-heading">
+<div class="texture-68">
+  <div class="texture-heading">
     <h4>Texture 68</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[67].style.backgroundColor = '#'+this.color">
   </div>
@@ -718,8 +718,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-69">
-  <div class="pattern-heading">
+<div class="texture-69">
+  <div class="texture-heading">
     <h4>Texture 69</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[68].style.backgroundColor = '#'+this.color">
   </div>
@@ -728,8 +728,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-70">
-  <div class="pattern-heading">
+<div class="texture-70">
+  <div class="texture-heading">
     <h4>Texture 70</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[69].style.backgroundColor = '#'+this.color">
   </div>
@@ -738,8 +738,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-71">
-  <div class="pattern-heading">
+<div class="texture-71">
+  <div class="texture-heading">
     <h4>Texture 71</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[70].style.backgroundColor = '#'+this.color">
   </div>
@@ -748,8 +748,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-72">
-  <div class="pattern-heading">
+<div class="texture-72">
+  <div class="texture-heading">
     <h4>Texture 72</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[71].style.backgroundColor = '#'+this.color">
   </div>
@@ -758,8 +758,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-73">
-  <div class="pattern-heading">
+<div class="texture-73">
+  <div class="texture-heading">
     <h4>Texture 73</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[72].style.backgroundColor = '#'+this.color">
   </div>
@@ -768,8 +768,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-74">
-  <div class="pattern-heading">
+<div class="texture-74">
+  <div class="texture-heading">
     <h4>Texture 74</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[73].style.backgroundColor = '#'+this.color">
   </div>
@@ -778,8 +778,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-75">
-  <div class="pattern-heading">
+<div class="texture-75">
+  <div class="texture-heading">
     <h4>Texture 75</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[74].style.backgroundColor = '#'+this.color">
   </div>
@@ -788,8 +788,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-76">
-  <div class="pattern-heading">
+<div class="texture-76">
+  <div class="texture-heading">
     <h4>Texture 76</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[75].style.backgroundColor = '#'+this.color">
   </div>
@@ -798,8 +798,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-77">
-  <div class="pattern-heading">
+<div class="texture-77">
+  <div class="texture-heading">
     <h4>Texture 77</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[76].style.backgroundColor = '#'+this.color">
   </div>
@@ -808,8 +808,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-78">
-  <div class="pattern-heading">
+<div class="texture-78">
+  <div class="texture-heading">
     <h4>Texture 78</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[77].style.backgroundColor = '#'+this.color">
   </div>
@@ -818,8 +818,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-79">
-  <div class="pattern-heading">
+<div class="texture-79">
+  <div class="texture-heading">
     <h4>Texture 79</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[78].style.backgroundColor = '#'+this.color">
   </div>
@@ -828,8 +828,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-80">
-  <div class="pattern-heading">
+<div class="texture-80">
+  <div class="texture-heading">
     <h4>Texture 80</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[79].style.backgroundColor = '#'+this.color">
   </div>
@@ -838,8 +838,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-81">
-  <div class="pattern-heading">
+<div class="texture-81">
+  <div class="texture-heading">
     <h4>Texture 81</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[80].style.backgroundColor = '#'+this.color">
   </div>
@@ -848,8 +848,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-82">
-  <div class="pattern-heading">
+<div class="texture-82">
+  <div class="texture-heading">
     <h4>Texture 82</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[81].style.backgroundColor = '#'+this.color">
   </div>
@@ -858,8 +858,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-83">
-  <div class="pattern-heading">
+<div class="texture-83">
+  <div class="texture-heading">
     <h4>Texture 83</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[82].style.backgroundColor = '#'+this.color">
   </div>
@@ -868,8 +868,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-84">
-  <div class="pattern-heading">
+<div class="texture-84">
+  <div class="texture-heading">
     <h4>Texture 84</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[83].style.backgroundColor = '#'+this.color">
   </div>
@@ -878,8 +878,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-85">
-  <div class="pattern-heading">
+<div class="texture-85">
+  <div class="texture-heading">
     <h4>Texture 85</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[84].style.backgroundColor = '#'+this.color">
   </div>
@@ -888,8 +888,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-86">
-  <div class="pattern-heading">
+<div class="texture-86">
+  <div class="texture-heading">
     <h4>Texture 86</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[85].style.backgroundColor = '#'+this.color">
   </div>
@@ -898,8 +898,8 @@
     <div class="example-inverted"></div>
   </div>
 </div>
-<div class="pattern-87">
-  <div class="pattern-heading">
+<div class="texture-87">
+  <div class="texture-heading">
     <h4>Texture 87</h4>
     <input type="" class="color {pickerFaceColor:'#3F3F3F',pickerBorderColor:'#3F3F3F',pickerInsetColor:'#3F3F3F'}" onchange="document.getElementsByClassName('examples')[86].style.backgroundColor = '#'+this.color">
   </div>

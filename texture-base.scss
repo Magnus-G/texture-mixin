@@ -1,4 +1,4 @@
-@import "pattern-mixin";
+@import "texture-mixin";
 
 $background-color: #3F3F3F;
 $space: 16px;
@@ -81,7 +81,7 @@ div {
   position: relative;
 }  
 
-.pattern-heading {
+.texture-heading {
   h4 {
     float: left;
     margin: 0;
@@ -129,13 +129,12 @@ div {
 }
 
 @for $i from 1 through 87 {
-  .pattern-#{$i} {
-    // background-color: none;
+  .texture-#{$i} {
     .example-normal {
-      @include pattern(transparentize(white, 1), $i, 0);
+      @include texture(transparentize(white, 1), $i, 0);
     }
     .example-inverted {
-      @include pattern(transparentize(white, 1), $i, 1);
+      @include texture(transparentize(white, 1), $i, 1);
     }
   }
 }

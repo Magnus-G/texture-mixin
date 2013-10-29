@@ -1,0 +1,702 @@
+body {
+  background-color: #3f3f3f;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #8d8d8d; }
+
+.container {
+  width: 700px;
+  margin: auto; }
+
+code {
+  padding: 0; }
+  code pre {
+    background-color: #262626;
+    border-radius: 3px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 16px; }
+
+h1 {
+  color: #b3b3b3;
+  margin-top: 32px; }
+
+h2 {
+  border-bottom: 1px dashed #8d8d8d;
+  padding-bottom: 8px;
+  margin-top: 32px; }
+
+h3 {
+  background-color: #8d8d8d;
+  color: #3f3f3f;
+  padding: 4px 6px;
+  display: inline-block;
+  min-width: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0; }
+
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    color: orange; }
+
+b {
+  color: #a6a6a6; }
+
+ul {
+  margin-bottom: 32px; }
+
+div {
+  border-radius: 3px;
+  position: relative; }
+
+.texture-heading h4 {
+  float: left;
+  margin: 0;
+  padding-bottom: 25px;
+  font-weight: 700;
+  width: 100px; }
+.texture-heading input.color {
+  border: none;
+  float: right;
+  padding: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  width: 40px;
+  border-radius: 2px; }
+
+.examples {
+  clear: both;
+  height: 170px;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: #8A8A6F; }
+
+.example-normal {
+  height: 100%;
+  float: left;
+  width: 50%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.example-inverted {
+  height: 100%;
+  float: left;
+  width: 50%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.texture-1 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/paper.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-1 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/paper.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-2 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/rice_paper.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-2 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/rice_paper.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-3 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/noise_lines.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-3 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/noise_lines.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-4 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/fabric_plaid.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-4 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/fabric_plaid.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-5 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/first_aid_kit.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-5 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/first_aid_kit.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-6 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/texturetastic_gray.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-6 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/texturetastic_gray.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-7 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/lil_fiber.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-7 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/lil_fiber.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-8 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/tex2res5.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-8 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/tex2res5.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-9 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/skin_side_up.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-9 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/skin_side_up.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-10 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/light_noise_diagonal.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-10 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/light_noise_diagonal.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-11 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/chruch.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-11 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/chruch.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-12 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/45degreee_fabric.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-12 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/45degreee_fabric.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-13 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/bgnoise_lg.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-13 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/bgnoise_lg.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-14 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/little_pluses.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-14 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/little_pluses.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-15 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/squairy_light.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-15 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/squairy_light.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-16 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/white_texture.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-16 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/white_texture.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-17 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/binding_light.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-17 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/binding_light.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-18 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/double_lined.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-18 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/double_lined.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-19 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/grid.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-19 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/grid.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-20 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/absurdidad.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-20 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/absurdidad.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-21 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/grid_noise.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-21 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/grid_noise.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-22 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/fancy_deboss.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-22 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/fancy_deboss.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-23 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/graphy.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-23 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/graphy.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-24 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/noise_pattern_with_crosslines.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-24 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/noise_pattern_with_crosslines.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-25 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/old_mathematics.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-25 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/old_mathematics.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-26 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/ps_neutral.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-26 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/ps_neutral.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-27 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/subtle_freckles.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-27 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtle_freckles.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-28 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/wavegrid.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-28 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/wavegrid.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-29 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/az_subtle.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-29 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/az_subtle.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-30 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/tiny_grid.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-30 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/tiny_grid.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-31 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/wavegrid.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-31 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/wavegrid.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-32 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/gridme.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-32 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/gridme.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-33 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/noisy_grid.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-33 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/noisy_grid.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-34 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/subtlenet2.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-34 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtlenet2.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-35 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/white_carbon.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-35 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/white_carbon.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-36 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/lghtmesh.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-36 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/lghtmesh.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-37 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/p5.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-37 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/p5.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-38 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/worn_dots.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-38 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/worn_dots.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-39 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/subtle_dots.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-39 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtle_dots.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-40 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/brillant.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-40 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/brillant.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-41 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/farmer.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-41 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/farmer.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-42 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/retina_dust.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-42 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/retina_dust.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-43 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/pinstripe.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-43 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/pinstripe.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-44 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/line_horizontal1.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-44 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/line_horizontal1.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-45 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/line_horizontal2.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-45 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/line_horizontal2.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-46 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/linen.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-46 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/linen.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-47 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/vintage_speckles.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-47 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/vintage_speckles.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-48 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/subtle_grunge.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-48 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtle_grunge.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-49 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/old_wall.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-49 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/old_wall.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-50 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/brushed.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-50 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/brushed.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-51 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/stucco.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-51 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/stucco.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-52 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/mooning.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-52 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/mooning.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-53 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/husk.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-53 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/husk.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-54 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/concrete_wall_2.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-54 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/concrete_wall_2.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-55 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/noisy.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-55 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/noisy.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-56 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/concrete_wall_3.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-56 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/concrete_wall_3.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-57 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/subtle_surface.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-57 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtle_surface.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-58 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/dust.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-58 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/dust.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-59 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/light_alu.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-59 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/light_alu.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-60 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/corrugation.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-60 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/corrugation.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-61 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/kindajean.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-61 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/kindajean.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-62 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/line_diagonal1.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-62 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/line_diagonal1.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-63 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/line_diagonal2.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-63 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/line_diagonal2.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-64 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/groovepaper.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-64 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/groovepaper.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-65 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/brushed_alu.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-65 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/brushed_alu.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-66 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/rough_diagonal.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-66 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/rough_diagonal.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-67 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/diagonal-noise.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-67 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/diagonal-noise.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-68 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/cross_scratches.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-68 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/cross_scratches.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-69 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/striped_lens.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-69 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/striped_lens.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-70 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/debut_light.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-70 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/debut_light.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-71 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/diagonal_waves.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-71 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/diagonal_waves.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-72 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/honey_im_subtle.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-72 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/honey_im_subtle.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-73 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/pw_maze_white.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-73 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/pw_maze_white.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-74 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/subtle_zebra_3d.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-74 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtle_zebra_3d.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-75 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/white_wave.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-75 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/white_wave.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-76 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/circles.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-76 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/circles.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-77 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/crosses.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-77 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/crosses.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-78 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/grilled.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-78 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/grilled.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-79 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/pw_pattern.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-79 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/pw_pattern.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-80 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/struckaxiom.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-80 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/struckaxiom.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-81 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/vichy.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-81 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/vichy.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-82 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/wavecut.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-82 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/wavecut.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-83 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/whitey.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-83 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/whitey.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-84 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/cream_pixels.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-84 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/cream_pixels.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-85 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/grey.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-85 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/grey.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-86 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/shinedotted.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-86 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/shinedotted.png");
+  background-color: rgba(255, 255, 255, 0); }
+
+.texture-87 .example-normal {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/stacked_circles.png");
+  background-color: rgba(255, 255, 255, 0); }
+.texture-87 .example-inverted {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/stacked_circles.png");
+  background-color: rgba(255, 255, 255, 0); }
