@@ -128,7 +128,7 @@ div {
   border-bottom-left-radius: 0;
 }
 
-@for $i from 1 through 87 {
+@for $i from 1 through 88 {
   .texture-#{$i} {
     .example-normal {
       @include texture(transparentize(white, 1), $i, 0);
